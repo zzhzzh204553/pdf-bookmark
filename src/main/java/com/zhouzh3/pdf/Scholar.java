@@ -23,7 +23,7 @@ public class Scholar {
 		String SRC = "src/main/resources/Hive编程指南.pdf";
 
 		Scholar scholar = new Scholar();
-		scholar.bookmark(SRC, 22);
+		scholar.bookmark(SRC, 21);
 
 	}
 

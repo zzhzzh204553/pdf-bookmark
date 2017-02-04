@@ -33,7 +33,8 @@ public class Bookmark {
 		if (title != null && !"".equals(title)) {
 			entry.put("Title", title);
 			entry.put("Action", "GoTo");
-			entry.put("Page", page + " Fit");
+			entry.put("Page", page + " FitH 60");
+//			entry.put("Page", page + " Fit");
 			if (kids.size() != 0) {
 				entry.put("Kids", kids);
 			}
